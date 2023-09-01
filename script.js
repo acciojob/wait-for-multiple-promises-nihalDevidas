@@ -16,7 +16,7 @@ for(let i=1; i<=3; i++){
 let result = Promise.all(promArr);
 
   result.then((dataArr)=>{
-	     document.getElementById("initial").remove();
+	     document.getElementById("loading").remove();
           let count = 1; let maxTime = 0;
 	  
 	     dataArr.forEach((data)=>{
